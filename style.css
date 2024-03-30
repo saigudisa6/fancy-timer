@@ -1,0 +1,39 @@
+#time-until-date{
+    font-size: 4.5rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+    background-image:url('./timer-background.jpg');
+    background-size:cover;
+    background-position:center;
+    flex-direction: column;
+}
+
+button{
+    margin-top:10px;
+    background-color: transparent;
+    border:0;
+    color:#FCFFEE;
+    font-weight:100px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.counter-container{
+    width:25vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: #FCFFEE;
+}
+  
